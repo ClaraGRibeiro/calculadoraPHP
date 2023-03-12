@@ -1,0 +1,151 @@
+body{
+    background-color: #847bc8;
+    color: #f3e2ff;
+    font-family: 'Roboto', sans-serif;
+    margin: 2.5em;
+    padding: 0;
+}
+h1, h3{    
+    color: #f3e2ff;
+    text-shadow: 2px 2px 5px #733abd;
+    text-align: center;
+}
+header{
+    text-align: center;
+    margin: 2em;
+}
+button{
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+}
+button, input{
+    color: #f3e2ff;
+    background-color: #946cc8;
+    border: 1px solid #f3e2ff;
+    transition-duration: 0.3s;
+}
+button:hover, input:hover{
+    color: #946cc8;
+    background-color: #f3e2ff;
+    border: 1px solid #946cc8;
+    transition-duration: 0.3s;
+}
+label{
+    text-shadow: 2px 2px 5px #733abd;
+}
+#back:link{
+    color: #f3e2ff;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px #733abd;
+    transition-duration: 0.3s;
+}
+#back:hover{
+    text-shadow: 2px 2px 5px #300b61;
+    font-size: 105%;
+    transition-duration: 0.3s;
+}
+#back:active{
+    color: #f3e2ff;
+    text-shadow: 2px 2px 5px #733abd;
+}
+#back:visited{
+    color: #f3e2ff;
+    text-shadow: 2px 2px 5px #733abd;
+}
+select{
+    color: #f3e2ff;
+    background-color: #946cc8;
+    border: 1px solid #f3e2ff;
+    transition-duration: 0.3s;
+}
+option{
+    color: #946cc8;
+    background-color: #f3e2ff;
+    border: 1px solid #946cc8;
+    transition-duration: 0.3s;
+}
+option:checked{
+    color: #f3e2ff;
+    background-color: #946cc8;
+    border: 1px solid #f3e2ff;
+    transition-duration: 0.3s;
+}
+button[type="submit"]{
+    width: auto;
+    height: auto;
+}
+input[type="checkbox"]{
+    cursor: pointer;
+}
+input[type="radio"]{
+    cursor: pointer;
+}
+div.blocks{
+    transition-duration: 0.6s;
+    text-align: center;
+    padding: 20px;
+    width: 190px;
+    border-radius: 2%;
+    color: snow;
+    background-color: #5c52a6;
+    border: solid thin #f3e2ff;
+    margin-right: 0.7em;
+    float: left;
+    vertical-align: middle;
+}
+div.blocks:hover{
+    color: #847bc8;
+    background-color: #f3e2ff;
+    border: solid thin #847bc8;
+    box-shadow: 1px 1px 5px #5c52a6;
+    transition-duration: 0.3s;
+    transform: translateY(-2px);  
+}
+div.blocks:active{
+    transform: translateY(7px); 
+    box-shadow: 0 -5px 2px #5c52a699;
+}
+.margin{
+    margin-top: 0;
+}
+a.div, a.div:hover{
+    text-decoration: none;
+}
+div.mom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+PALETA DE CORES
+#5c52a6 - lilás escuro
+#847bc8 - lilás claro
+#f3e2ff - azul bebê
+#252525 - preto
+#f6cb02 - amarelo
+#c3a001 - ouro
+#15a400 - verde
+snow
+*/
+
+
+/*body{
+    background-color: #5c52a6;
+    color: #f3e2ff;
+}
+h1{
+    color: #f3e2ff;
+    text-shadow: 2px 2px 5px #733abd;
+    text-align: center;
+}
+footer{
+    position: fixed;
+    opacity: 70%;
+    right: 60px;
+    bottom: 10px;
+}
+footer:hover{
+    opacity: 100%;
+}*/
